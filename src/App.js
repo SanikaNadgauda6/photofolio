@@ -8,7 +8,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import "./app.css";
+import "./App.css";
 import { useContext } from "react";
 import AlbumsList from "./components/Albums/albumsList";
 
