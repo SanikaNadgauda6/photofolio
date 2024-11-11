@@ -13,17 +13,17 @@ const Profile = () => {
     <div className="container-profile">
       {user.photoURL ? (
         <div>
-          <img 
-            src={user.photoURL} 
-            alt={`${user.displayName || 'User'}'s profile`} 
+          <img
+            src={user.photoURL}
+            alt={`${user.displayName || "User"}'s profile`}
             className="profile-picture"
-            />
+          />
         </div>
       ) : (
         <p>No profile picture available</p>
       )}
-      <h5>{user.displayName || 'N/A'}</h5>
-      <h5>{user.email || 'N/A'}</h5>
+      <h5>{user.displayName || "N/A"}</h5>
+      <h5>{user.email || "N/A"}</h5>
     </div>
   );
 };

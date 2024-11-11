@@ -1,84 +1,85 @@
 .modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
 }
 
 .modal-content {
-    position: relative;
-    max-width: 90vw;
-    max-height: 90vh;
-    background-color: white;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .modal-content img {
-    max-width: 100%;
-    max-height: 80vh;
-    object-fit: contain;
-    margin-bottom: 10px;
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .modal-close {
-    position: absolute;
-    top: -30px;
-    right: -40px;
-    background-color: transparent;
-    border: none;
-    font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    border-radius: 50%;
-    padding: 5px 7px;
+  position: absolute;
+  top: -30px;
+  right: -40px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px 7px;
 }
-.modal-close:hover, .modal-navigation:hover{
-    background-color: rgb(0, 0, 0);
-    color: white;
+.modal-close:hover,
+.modal-navigation:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 .modal-navigation {
-    position: absolute;
-    font-size: 24px;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgb(0, 0, 0);
-    border: none;
-    cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 50%;
-    z-index: 2;
+  position: absolute;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50%;
+  z-index: 2;
 }
 
 .modal-navigation.prev {
-    left: -50px;
+  left: -50px;
 }
 
 .modal-navigation.next {
-    right: -50px;
+  right: -50px;
 }
 
 .modal-delete {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: red;
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    z-index: 2;
-    border-radius: 4px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 4px;
 }

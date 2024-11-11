@@ -4,9 +4,9 @@ import AlbumForm from "./albumForm";
 const AlbumsList = () => {
   return (
     <>
-      <AlbumForm />    
+      <AlbumForm />
     </>
-  )
+  );
 };
 
 export default AlbumsList;
